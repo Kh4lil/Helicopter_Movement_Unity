@@ -27,8 +27,6 @@ public class HeliRotorControl : MonoBehaviour
 
         rotationDegree += RotorSpeed * Time.deltaTime;
         rotationDegree = rotationDegree % 360;
-
         transform.localRotation = Quaternion.Euler(originalRotation.x, rotationDegree, originalRotation.z);
-
     }
 }

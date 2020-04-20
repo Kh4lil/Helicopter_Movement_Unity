@@ -5,17 +5,12 @@ using UnityEngine;
 
 public class Controls : MonoBehaviour
 {
-    [SerializeField]
+    //Controls: 
     KeyCode SpeedUp = KeyCode.R;
-    [SerializeField]
     KeyCode SpeedDown = KeyCode.F;
-    [SerializeField]
     KeyCode Forward = KeyCode.W;
-    [SerializeField]
     KeyCode Back = KeyCode.S;
-    [SerializeField]
     KeyCode Left = KeyCode.A;
-    [SerializeField]
     KeyCode Right = KeyCode.D;
 
     private KeyCode[] keyCodes;
